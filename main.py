@@ -72,7 +72,9 @@ def main():
         zgodne += 1 if ok else 0
 
     print("-" * 66)
+
     print(f"Podsumowanie sprawdzen: {zgodne}/{len(sprawdzenia)}")
+
     return 0 if zgodne == len(sprawdzenia) else 1 #dziala
 
 
